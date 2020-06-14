@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from '../components/hero'
 
 function Home(){
     return (
         <>
-            <h1>Home Page</h1>
+            <Hero Title="Feel the power of the new BMW M8." ButtonText="Learn More" Url="/bmw-m3"/>
         </>
     );
 }
